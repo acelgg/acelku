@@ -1,0 +1,13 @@
+<audio id="myAudio" src="https://raw.githubusercontent.com/acelgg/acelku/main/ssstik.io_1756040771695.mp3"></audio>
+<button onclick="toggleAudio()">▶️ PLAY / ⏸️ PAUSE</button>
+
+<script>
+function toggleAudio() {
+  const audio = document.getElementById('myAudio');
+  if(audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+</script>
